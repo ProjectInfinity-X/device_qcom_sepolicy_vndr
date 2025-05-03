@@ -162,6 +162,7 @@ genfscon sysfs /devices/platform/soc/soc:qfprom@0/feat_conf8 u:object_r:vendor_s
 
 # UFS
 genfscon sysfs /devices/platform/soc/4804000.ufshc/host0/target0:0:0/0:0:0:0/block/sda/queue/discard_max_bytes u:object_r:vendor_sysfs_mmc_host:s0
+genfscon sysfs /devices/platform/soc/4804000.ufshc/host0/target0:0:0/0:0:0:4/block/sde/queue/discard_max_bytes u:object_r:vendor_sysfs_mmc_host:s0
 
 # Misc sysfs wakeup nodes
 genfscon sysfs /devices/platform/soc/1628000.qcom,msm-eud/wakeup        u:object_r:sysfs_wakeup:s0
