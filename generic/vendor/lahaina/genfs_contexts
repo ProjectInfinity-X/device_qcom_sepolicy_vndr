@@ -280,3 +280,4 @@ genfscon sysfs /devices/platform/soc/ae94000.qcom,mdss_dsi_ctrl0/uio/uio1/name u
 
 # UFS
 genfscon sysfs /devices/platform/soc/1d84000.ufshc/host0/target0:0:0/0:0:0:0/block/sda/queue/discard_max_bytes u:object_r:vendor_sysfs_mmc_host:s0
+genfscon sysfs /devices/platform/soc/1d84000.ufshc/host0/target0:0:0/0:0:0:4/block/sde/queue/discard_max_bytes u:object_r:vendor_sysfs_mmc_host:s0
